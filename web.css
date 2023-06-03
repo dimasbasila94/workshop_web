@@ -1,0 +1,17 @@
+.header{
+    color:white;
+    background-color:red;
+    text-align:center;
+  }
+
+  .container{
+    color:white;
+    background-color:blue;
+    text-align:center;
+    height:500px;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
