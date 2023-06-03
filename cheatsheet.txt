@@ -6,6 +6,7 @@ INSERT INTO tb_content (content,date_create)
 values ('content test 2',NOW()),('content test 3',NOW()),('content test 4',NOW());
 //update table
 update tb_content set content = "content workshop";
+update tb_content set content = "content workshop" where id = 1;
 //delete table
 DELETE from tb_content where id = 4;
 
